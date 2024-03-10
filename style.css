@@ -1,0 +1,121 @@
+body {
+    border-color: #747475;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    height: 520px;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 100px;
+    background-color: #d3d3d3;
+}
+.headsect {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 3;
+}
+.blue_margin {
+    height: 170px;
+    width: 100%;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px ;
+    background-color: #4071ED;
+}
+img {
+    height: 180px;
+    width: 180px;
+    background-color: #4071ED;
+    border-radius: 50%;
+    background-image: url(download.jpg);
+    border: 8px solid #4071ED;
+    position: relative;
+    top: -150px;
+    left: 102px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    height: 29px;
+    width: 100%;
+    font-size: 28px;
+    color: rgb(41, 41, 41);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.profession {
+    height: 29px;
+    width: 100%;
+    margin-top: 5px; 
+    font-size: 20px;
+    color: rgb(73, 72, 72);
+    font-weight: 600;
+    text-align: center;
+}
+.socialmedia {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 25px;
+}
+.fa-brands {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.fa-facebook-f {
+    background-color: #375397;
+}
+.fa-twitter {
+    background-color: #39AADA;
+}
+.fa-instagram {
+    background-color: #F6646B;
+}
+.fa-youtube {
+    background-color: #A90010;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.sub {
+    height: 45px;
+    width: 155px;
+    background-color: #4071ED;
+    border-radius: 33px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.count {
+    margin-left: 65px;
+    margin-right: 65px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
+.imm {
+    padding: 15px;
+}
